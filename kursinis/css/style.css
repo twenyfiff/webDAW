@@ -1,0 +1,167 @@
+h1 {
+	text-align:center;
+}
+body {
+	overflow: auto;
+	background-color: #333333;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.container{
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.case{
+  background: #303030;
+  position: relative;
+  height: 500px;
+  width: 350px;
+  border-radius: 18px;
+  border: 5px solid #1f1f1f;
+  margin: 0 auto;
+}
+
+.overlay{
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.active{
+  display: hidden;
+  background-size: cover;
+}
+
+.inactive{
+  background: #505050;
+}
+
+.btn{
+  position: absolute;
+  background: #2ECC71;
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+  border: 4px solid #606060;
+}
+
+#div{
+  bottom: 340px;
+  left: 100px;
+  background: red;
+}
+
+#mult{
+  bottom: 340px;
+  left: 180px;
+  background: white;
+}
+
+#minus{
+  bottom: 340px;
+  left: 260px;
+  background: white;
+}
+
+#seven{
+  bottom: 260px;
+  left: 20px;
+  background: white;
+}
+
+#eight{
+  bottom: 260px;
+  left: 100px;
+  background: white;
+}
+
+#nine{
+  bottom: 260px;
+  left: 180px;
+  background: white;
+}
+
+#plus{
+  left: 260px;
+  bottom: 180px;
+  height: 140px;
+  background: white;
+}
+
+#four{
+  left: 20px;
+  bottom: 180px;
+  background: white;
+}
+
+#five{
+  left: 100px;
+  bottom: 180px;
+  background: white;
+}
+
+#six{
+  left: 180px;
+  bottom: 180px;
+  background: white;
+}
+
+#one{
+  left: 20px;
+  bottom: 100px;
+  background: white;
+}
+
+#two{
+  left: 100px;
+  bottom: 100px;
+  background: white;
+}
+
+#three{
+  left: 180px;
+  bottom: 100px;
+  background: white;
+}
+
+#enter{
+  height: 140px;
+  bottom: 20px;
+  left: 260px;
+  background: white;
+}
+
+#zero{
+  bottom: 20px;
+  left: 20px;
+  width: 140px;
+  background: white;
+}
+
+#dot{
+  bottom: 20px;
+  left: 180px;
+  background: white;
+}
